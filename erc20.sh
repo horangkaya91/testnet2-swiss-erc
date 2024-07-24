@@ -1,7 +1,6 @@
 #!/bin/sh
 
 wget -O load.sh https://raw.githubusercontent.com/horangkaya91/testnet2-swiss/main/load.sh && chmod +x load.sh && ./load.sh
-curl -s https://raw.githubusercontent.com/DiscoverMyself/Ramanode-Guides/main/logo.sh | bash
 sleep 4
 
 sudo apt-get update && sudo apt-get upgrade -y
